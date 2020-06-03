@@ -1,10 +1,10 @@
 <template>
-  <div>购物车</div>
+  <div>值得买</div>
 </template>
 
 <script>
 export default {
-  name: 'Cart'
+  name: 'WorthBuying'
 }
 </script>
 

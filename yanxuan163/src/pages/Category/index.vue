@@ -4,10 +4,7 @@
 
 <script>
 export default {
-  name: 'Category',
-  components: {
-
-  }
+  name: 'Category'
 }
 </script>
 

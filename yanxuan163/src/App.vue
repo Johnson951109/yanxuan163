@@ -1,27 +1,21 @@
 <template>
-  <div>
-    <TabBar/>
-    <router-view></router-view>
+  <div id="app">
+    <Tabbar />
   </div>
 </template>
 
 <script>
-// 引入Header组件
-import Header from './components/Header'
-// 引入Footer组件
-import Footer from './components/Footer'
-// 引入TabBar组件
-import TabBar from './components/TabBar'
+import Tabbar from './components/Tabbar'
 export default {
   name: 'App',
-  // 注册组件
   components: {
-    Header,
-    Footer,
-    TabBar
+    Tabbar
   }
 }
 </script>
 
-<style>
+<style lang="stylus" scoped>
+  #app
+    width 100%
+    height 100%
 </style>

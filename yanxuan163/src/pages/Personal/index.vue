@@ -1,10 +1,10 @@
 <template>
-  <div>购物车</div>
+  <div>个人</div>
 </template>
 
 <script>
 export default {
-  name: 'Cart'
+  name: 'Personal'
 }
 </script>
 
